@@ -5,7 +5,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://ws.rpgroup.co.id/eureka/eureka/
+      defaultZone: http://ws.rpgroup.co.id/eureka/
       instance:
     hostname: localhost
   
