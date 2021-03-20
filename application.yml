@@ -7,5 +7,5 @@ eureka:
     service-url:
       defaultZone: http://ws.rpgroup.co.id/eureka/
       instance:
-    hostname: localhost
+    hostname: ws.rpgroup.co.id
   
