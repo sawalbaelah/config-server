@@ -4,6 +4,16 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://ws.rpgroup.co.id/eureka/eureka/
-      instance:
+  instance:
     hostname: ws.rpgroup.co.id
-  
+    
+    
+microservice:
+  payment-service:
+    endpoints:
+      endpoint:
+        uri: http://PAYMENT-SERVICE/payment/doPayment
+  order-service:
+    endpoints:
+      endpoint:
+        uri: http://ORDER-SERVICE/order/bookOrder    
