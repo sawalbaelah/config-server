@@ -5,7 +5,7 @@ eureka:
     service-url:
       defaultZone: http://ws.rpgroup.co.id/eureka/eureka/
   instance:
-    hostname: halalinaku.com
+    hostname: ws.rpgroup.co.id
     
     
 microservice:
